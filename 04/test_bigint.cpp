@@ -6,7 +6,7 @@
 TEST(BigInt, ConstructionAndOutput) {
     BigInt a(12345);
     BigInt b("-98765432109876543210");
-    BigInt c(INT32_MIN); // -2147483648
+    BigInt c(INT32_MIN);
     
     std::stringstream ss1, ss2, ss3;
     ss1 << a;
